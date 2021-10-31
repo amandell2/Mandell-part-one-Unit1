@@ -1,0 +1,70 @@
+body{
+    font-family: "Bungee", serif;
+}
+.logo{
+    align-items: left;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+.items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}  
+.border {
+    height: 400px;
+    width: 200px;
+    border-style: solid;
+    border-color: #7944e6;
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.About {
+    background: #ff00ff;
+    text-align: left;
+    margin: 1px 30px;
+    padding: 10px 60px;
+}
+a{
+    font-size: 25px;
+    color: #7944e6;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    color: #10fdff;
+  }
+
+  @media screen and (min-width: 768px) {
+    .side-by-side-container{
+          display: flex;
+          background: #ff00ff;
+      }
+      .side-by-side-about {
+        width: 50%;
+        font-size: 70%;
+        padding: 20px 60px;
+      }
+      .side-by-side-items{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+      }
+  }
